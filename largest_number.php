@@ -10,12 +10,11 @@ $num2 = 5;
 $num3 = 6;
 
 if ($num1 >= $num2 && $num1 >= $num3) {
-    echo "The largest number is: $num1";
+    printf(" <h1> Between %d, %d And %d <br> The Largest Number Is %d </h1> ", $num1, $num2, $num3, $num1);
 } elseif ($num2 >= $num1 && $num2 >= $num3) {
-    echo "The largest number is: $num2";
+    printf(" <h1> Between %d, %d And %d <br> The Largest Number Is %d </h1> ", $num1, $num2, $num3, $num2);
 } else {
-    echo "The largest number is: $num3";
+    printf(" <h1> Between %d, %d And %d <br> The Largest Number Is %d </h1> ", $num1, $num2, $num3, $num3);
 }
-
 
 ?>
